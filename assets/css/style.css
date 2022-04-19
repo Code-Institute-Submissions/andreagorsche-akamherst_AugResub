@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+h1 {
+    font-family: Fredericka the Great, cursive;
+    font-weight: 400;
+    color: #000000;
+}
