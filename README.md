@@ -41,6 +41,10 @@ CSS
 
 1. The idea to set the box-model elements to zero/none in the css stylesheet came from the Love Running example.
 
+## Style
+
+1. Font choice: The wireframe worked with the heading font Chalkduster. Since this font was not available by Google fonts, Frederika the Great was suggested by Graphichow (https://graphichow.com/knowledge/what-is-a-chalkboard-font-2/). Thus, this font was chosen as a heading font. Since Google Fonts doesn't the pairing feature anymore the developer googled for pairing fonts and found the recommendation to use Oswald. This recommendation was given by Easil (https://about.easil.com/free-font-pairing-guide-templates/)
+
 ### Content
 
 The content of the website was created by the developer who happens to be the writer A.K. Amherst.
