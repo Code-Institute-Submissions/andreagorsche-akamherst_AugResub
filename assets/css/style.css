@@ -17,37 +17,13 @@ h1 {
     color: #000000;
     font-size: 10rem;
 }
+
+
+.tiles {
+    height:80%;
+}
+
 /* title tiles
-
-.tile-one {
-    width: 50%;
-    position:relative;
-    top: 0px;
-   float: left;
-}
-
-.tile-two {
-    width: 50%;
-    position: relative;
-    top: 0px;
-   float:right;
-}
-
-.tile-three {
-    width: 50%;
-    position:relative;
-    bottom: 0px;
-    float: left;
-}
-
-.tile-four {
-    width: 50%;
-    position:relative;
-    bottom: 0px;
-    float: right;
-}
-
- */
 
 /*tile one */
 
@@ -75,8 +51,8 @@ h1 {
 .tiles .tile-one a h1 {
     position: absolute;
     top: 10%;
-    left: 16%;
-    font-size: 7vw;
+    left: 13%;
+    font-size: 6vw;
     color: white;
         }
 
@@ -106,8 +82,8 @@ h1 {
 .tiles .tile-two a h1 {
     position: absolute;
     top: 10%;
-    right: -10%;
-    font-size: 7vw;
+    right: 13%;
+    font-size: 6vw;
     color: white;
         }
 
@@ -123,7 +99,7 @@ h1 {
 }
 
 .tiles .tile-three a {
-    height: 45%;
+    height: 50%;
     width: 50%;
     background-color: cyan;
     position: relative;
@@ -138,8 +114,8 @@ h1 {
 .tiles .tile-three a h1 {
     position: absolute;
     bottom: 10%;
-    left: 10%;
-    font-size: 7vw;
+    left: 13%;
+    font-size: 6vw;
     color: white;
         }
 
@@ -155,7 +131,7 @@ h1 {
 }
 
 .tiles .tile-four a {
-    height: 45%;
+    height: 50%;
     width: 50%;
     background-color: cyan;
     position: relative;
@@ -170,20 +146,20 @@ h1 {
 .tiles .tile-four a h1 {
     position: absolute;
     bottom: 10%;
-    right: 10%;
-    font-size: 7vw;
+    right: 13%;
+    font-size: 6vw;
     color: white;
         }
 
 
-/*footer*/
-
-footer(
+footer {
     height=10%;
-    width=100%;
     background-color: cyan;
-)
-
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    color:black;
+    text-align: center;
+}
 
 
 
