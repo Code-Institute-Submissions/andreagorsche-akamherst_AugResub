@@ -17,45 +17,174 @@ h1 {
     color: #000000;
     font-size: 10rem;
 }
-/* title tiles */
+/* title tiles
 
-#about {
+.tile-one {
     width: 50%;
     position:relative;
     top: 0px;
    float: left;
 }
 
-#short {
+.tile-two {
     width: 50%;
     position: relative;
     top: 0px;
    float:right;
 }
 
-#seo {
+.tile-three {
     width: 50%;
     position:relative;
     bottom: 0px;
     float: left;
 }
 
-#books {
+.tile-four {
     width: 50%;
     position:relative;
     bottom: 0px;
     float: right;
 }
 
-a :hover {
-    opacity:50%;
+ */
+
+/*tile one */
+
+.tiles .tile-one a img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    top: 0px;
+   float: left;    
 }
 
-.caption {
+.tiles .tile-one a {
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
+    position: relative;
+    top: 0px;
+    float: left; 
+    }
+
+.tiles .tile-one a :hover {
+        opacity: 50%;
+            }
+
+.tiles .tile-one a h1 {
     position: absolute;
     top: 10%;
     left: 16%;
-    transform: translate(-50%, -50%);
-    font-size: 800%;
+    font-size: 7vw;
+    color: white;
+        }
+
+/*tile two */
+
+.tiles .tile-two a img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    top: 0px;
+   float: right;    
+}
+
+.tiles .tile-two a {
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
+    position: relative;
+    top: 0px;
+    float: right; 
     }
 
+.tiles .tile-two a :hover {
+        opacity: 50%;
+            }
+
+.tiles .tile-two a h1 {
+    position: absolute;
+    top: 10%;
+    right: -10%;
+    font-size: 7vw;
+    color: white;
+        }
+
+
+/*tile three */
+
+.tiles .tile-three a img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    bottom: 0px;
+    float: left;    
+}
+
+.tiles .tile-three a {
+    height: 45%;
+    width: 50%;
+    background-color: cyan;
+    position: relative;
+    bottom: 0px;
+    float: left; 
+    }
+
+.tiles .tile-three a :hover {
+        opacity: 50%;
+            }
+
+.tiles .tile-three a h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 7vw;
+    color: white;
+        }
+
+
+/*tile four */
+
+.tiles .tile-four a img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    bottom: 0px;
+    float: right;    
+}
+
+.tiles .tile-four a {
+    height: 45%;
+    width: 50%;
+    background-color: cyan;
+    position: relative;
+    bottom: 0px;
+    float: right; 
+    }
+
+.tiles .tile-four a :hover {
+        opacity: 50%;
+            }
+
+.tiles .tile-four a h1 {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 7vw;
+    color: white;
+        }
+
+
+/*footer*/
+
+footer(
+    height=10%;
+    width=100%;
+    background-color: cyan;
+)
+
+
+
+
+       
