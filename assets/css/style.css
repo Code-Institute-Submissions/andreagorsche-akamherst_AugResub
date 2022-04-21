@@ -4,6 +4,20 @@
     padding: 0;
     border: none;
 }
+
+header{
+    background-color: #330066;
+}
+
+#header-text{
+    font-size: 220%;
+    color: white;
+ }
+
+header a{
+    text-decoration: none;
+}
+
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
@@ -14,15 +28,14 @@ body {
 h1 {
     font-family: Fredericka the Great, cursive;
     font-weight: 400;
-    color: #000000;
-    font-size: 10rem;
+    color: white;
+    font-size: 4rem;
 }
 
 
 .tiles {
-    height:80%;
+    height: 70%;
 }
-
 /* title tiles
 
 /*tile one */
@@ -38,7 +51,7 @@ h1 {
 .tiles .tile-one a {
     height: 50%;
     width: 50%;
-    background-color: cyan;
+    background-color: #330066;
     position: relative;
     top: 0px;
     float: left; 
@@ -69,7 +82,7 @@ h1 {
 .tiles .tile-two a {
     height: 50%;
     width: 50%;
-    background-color: cyan;
+    background-color: #330066;
     position: relative;
     top: 0px;
     float: right; 
@@ -101,7 +114,7 @@ h1 {
 .tiles .tile-three a {
     height: 50%;
     width: 50%;
-    background-color: cyan;
+    background-color: #330066;
     position: relative;
     bottom: 0px;
     float: left; 
@@ -133,7 +146,7 @@ h1 {
 .tiles .tile-four a {
     height: 50%;
     width: 50%;
-    background-color: cyan;
+    background-color: #330066;
     position: relative;
     bottom: 0px;
     float: right; 
@@ -151,16 +164,19 @@ h1 {
     color: white;
         }
 
-
 footer {
-    height=10%;
-    background-color: cyan;
-    font-family: Oswald, sans-serif;
-    font-size: 14px;
-    color:black;
-    text-align: center;
+    background-color: #330066;
+    width: 100%;
+    }
+
+footer > p {
+  font-size: 180%;
+   float: right;
+   color:white;
 }
 
-
-
-       
+footer > a {
+    color:white;
+    margin-left: 10px;
+}
+     
