@@ -7,27 +7,36 @@
 
 header{
     background-color: #330066;
-    min-height: 50px;
+    font-size: 1.5rem;
+    color: white;
+    min-height: 30px;
     padding: 1%;
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-end;
+
+}
+
+header a {
+    color:white;
 }
 
 #header-text{
-    font-size: 220%;
-    color: white;
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
- }
+    color:white;
+    font-size: 2rem;
+}
 
 a{
     text-decoration: none;
+    
 }
 
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    text-align: justify;
 }
 
 h1 {
@@ -35,19 +44,20 @@ h1 {
     font-weight: 400;
     color: black;
     font-size: 4rem;
+    padding-left: 4%;
 }
 
 .tile h1{
     background-color:#330066;
     color: white;
     z-index: 2;
-    position:relative;
-    top: 20vh;
-    opacity:70%;
+    position: relative;
+    top: -25vh;
+    opacity:70%; 
 }
 
 a:hover {
-    opacity:60%;
+    opacity:80%;
 }
 #tile-square {
     min-height: calc(100vh - 100px);
@@ -58,31 +68,34 @@ a:hover {
 }
 
 #tile-square {
+    width: 100vw;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+   
 }
 
 footer {
     background-color: #330066;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     padding-left: 2%;
     padding-right: 2%;
-    height:50%;
+    min-height:70px;
     }
 
 footer > p {
-  font-size: 100%;
+  font-size: 2rem;
    float: right;
    color:white;
 }
 
-footer > a {
+footer div a {
     color:white;
-    align-items: flex-end;
+    padding: 0.5%;
 }
 
 /*subpages*/
@@ -90,12 +103,33 @@ footer > a {
 .title-image{
     width:100%;
 }
-   
-header nav a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-}
+
     
   
+article > p {
+    display: flex;
+    justify-content:flex-start;
+    width: 50vw;
+    padding-left: 4%;
+    padding-top: 1%;
+
+
+article > aside {
+    width:35vw;
+    float: right;
+    position:relative;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-left: 4%;
+    text-align:center;
+    background-color: #330066;
+    color:white;
+}
+
+
+#reviews > a {
+    text-decoration: none;
+    text-size: 0.5rem;
+    color: white;
+
+}
