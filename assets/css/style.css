@@ -7,14 +7,19 @@
 
 header{
     background-color: #330066;
+    min-height: 50px;
+    padding: 1%;
 }
 
 #header-text{
     font-size: 220%;
     color: white;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
  }
 
-header a{
+a{
     text-decoration: none;
 }
 
@@ -22,7 +27,7 @@ body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 1 rem;
+    font-size: 1rem;
 }
 
 h1 {
@@ -32,148 +37,41 @@ h1 {
     font-size: 4rem;
 }
 
-/* title tiles on the index.html page*/
-
-/*tile one */
-.tiles {
-    height: 70%;
-}
-
-
-.tiles .tile-one a img {
-    width: 100%;
-    height: 100%;
-    position:relative;
-    top: 0px;
-   float: left;    
-}
-
-.tiles .tile-one a {
-    height: 50%;
-    width: 50%;
-    background-color: #330066;
-    position: relative;
-    top: 0px;
-    float: left; 
-    }
-
-.tiles .tile-one a :hover {
-        opacity: 50%;
-            }
-
-.tiles .tile-one a h1 {
-    position: absolute;
-    top: 10%;
-    left: 13%;
-    font-size: 6vw;
+.tile h1{
+    background-color:#330066;
     color: white;
-        }
-
-/*tile two */
-
-.tiles .tile-two a img {
-    width: 100%;
-    height: 100%;
+    z-index: 2;
     position:relative;
-    top: 0px;
-   float: right;    
+    top: 20vh;
+    opacity:70%;
 }
 
-.tiles .tile-two a {
-    height: 50%;
-    width: 50%;
-    background-color: #330066;
-    position: relative;
-    top: 0px;
-    float: right; 
-    }
-
-.tiles .tile-two a :hover {
-        opacity: 50%;
-            }
-
-.tiles .tile-two a h1 {
-    position: absolute;
-    top: 10%;
-    right: 13%;
-    font-size: 6vw;
-    color: white;
-        }
-
-
-/*tile three */
-
-.tiles .tile-three a img {
-    width: 100%;
-    height: 100%;
-    position:relative;
-    bottom: 0px;
-    float: left;    
+a:hover {
+    opacity:60%;
+}
+#tile-square {
+    min-height: calc(100vh - 100px);
+    z-index: 1;
+}
+#tile-square img {
+   width: 50vw;
 }
 
-.tiles .tile-three a {
-    height: 50%;
-    width: 50%;
-    background-color: #330066;
-    position: relative;
-    bottom: 0px;
-    float: left; 
-    }
-
-.tiles .tile-three a :hover {
-        opacity: 50%;
-            }
-
-.tiles .tile-three a h1 {
-    position: absolute;
-    bottom: 10%;
-    left: 13%;
-    font-size: 6vw;
-    color: white;
-        }
-
-
-/*tile four */
-
-.tiles .tile-four a img {
-    width: 100%;
-    height: 100%;
-    position:relative;
-    bottom: 0px;
-    float: right;    
-}
-
-.tiles .tile-four a {
-    height: 50%;
-    width: 50%;
-    background-color: #330066;
-    position: relative;
-    bottom: 0px;
-    float: right; 
-    }
-
-.tiles .tile-four a :hover {
-        opacity: 50%;
-            }
-
-.tiles .tile-four a h1 {
-    position: absolute;
-    bottom: 10%;
-    right: 13%;
-    font-size: 6vw;
-    color: white;
-        }
-
-
-/*subpages*/
-
-.title-image{
-    width:100%;
+#tile-square {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 footer {
     background-color: #330066;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-left: 2%;
+    padding-right: 2%;
+    height:50%;
     }
 
 footer > p {
@@ -184,13 +82,20 @@ footer > p {
 
 footer > a {
     color:white;
-    margin-left: 10px;
+    align-items: flex-end;
 }
-     
-header > nav {
-    float:right;
-    margin: 1%;
-    position: relative;
-    top:0px;
-    right:0px;
+
+/*subpages*/
+
+.title-image{
+    width:100%;
 }
+   
+header nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+    
+  
