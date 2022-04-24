@@ -60,12 +60,13 @@ position: relative;
 }
 
 #caption-square {
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    position: relative;
-    top:0px;
+    position: absolute;
+    top:50vh;
     left:0px;
     }
 
@@ -73,29 +74,8 @@ position: relative;
     z-index: 2;
     background-color: #330066;
     opacity: 80%; 
-    width:50vw;
-    font-size:2rem;
-}
+    width: 50vw;
 
-#caption-about {
-    position:relative;
-    top:0px;
-    left:0px,
-}
-#caption-short {
-    position:relative;
-    top:0px;
-    right:0px;
-}
-#caption-seo {
-    position:relative;
-    bottom:0px;
-    left:0px,
-}
-#caption-books {
-    position:relative;
-    bottom:0px;
-    right:0px;
 }
 
 #pic-square img {
@@ -104,6 +84,7 @@ position: relative;
 
 #caption-square h1 {
 width: 50vh;
+font-size: 1.5rem;
 }
 
 
