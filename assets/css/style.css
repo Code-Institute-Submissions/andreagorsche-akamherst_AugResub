@@ -5,7 +5,8 @@
     border: none;
 }
 
-body {
+html, body {
+height: 100%;
 font-family: Oswald, sans-serif;
 font-weight: 300;
 color: #000000;
@@ -20,9 +21,25 @@ text-align: justify;
 }
 
 h1 {
+    font-family: Fredericka the Great, cursive;
+    font-size: 4rem;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    }
+
+aside h2 {
+background-color: #330066;
+color:white;
+font-size: 2rem;
 font-family: Fredericka the Great, cursive;
-font-size: 4rem;
-padding-left: 4%;
+padding:4%;
+}
+
+aside h3 {
+    font-family: Fredericka the Great, cursive;
+    font-size: 1.5rem;
+    margin-top: 5%;
 }
 
 header{
@@ -47,6 +64,7 @@ a:hover {
 
 
 #pic-square {
+height: calc(100vh-70px); /*not working, should set height of square in relation to 100vh in total*/
 display: flex;
 justify-content: center;
 align-items: center;
@@ -60,14 +78,15 @@ position: relative;
 }
 
 #caption-square {
+    
     z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     position: absolute;
-    top:50vh;
-    left:0px;
+    top: 90px;
+    left: 0px;
     }
 
 .caption {
@@ -75,18 +94,16 @@ position: relative;
     background-color: #330066;
     opacity: 80%; 
     width: 50vw;
-
+    height: 50vh;
+    
 }
 
 #pic-square img {
     width: 50vw;
 }
 
-#caption-square h1 {
-width: 50vh;
-font-size: 1.5rem;
-}
 
+/*subpages*/
 
 .title-image {
     width: 100vw;
@@ -95,7 +112,7 @@ font-size: 1.5rem;
 article > p {
     width: 50vw;
     padding-left:4%;
-    padding-top: 1%;
+    padding-bottom: 2%;
 
 }
 
@@ -114,4 +131,25 @@ footer {
     justify-content: space-between;
     color:white;
     padding: 2%;
+}
+
+footer i {
+    padding: 1%;
+}
+
+.iframe {
+    float: right;
+    width: 30vw;
+    height: 30vh;
+    padding: 3%;
+}
+
+#teaser {
+    padding: 4%;
+}
+
+h2 {
+    font-family: Fredericka the Great, cursive;
+    padding-left: 4%;
+
 }
