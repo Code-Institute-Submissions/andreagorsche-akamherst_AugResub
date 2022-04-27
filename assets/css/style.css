@@ -33,8 +33,17 @@ h1 {
 
 h2 {
     font-family: Fredericka the Great, cursive;
+    font-size: 1.5rem;
     padding-left: 4%;
-    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+h3 {
+    font-family: Fredericka the Great, cursive;
+    font-size: 1rem;
+    padding-left: 4%;
+    padding-bottom: 2%;
 
 }
 
@@ -92,102 +101,6 @@ a {
     height:43vh;
 }
 
-
-
-/*subpages*/
-
-.title-image {
-    width: 100vw;
-}
-
-article>p {
-    width: 50vw;
-    padding-left: 4%;
-    padding-bottom: 2%;
-
-}
-
-#short {
-    width: 40vw;
-}
-
-aside {
-    float: right;
-    width: 35vw;
-    padding-left: 4%;
-    padding-top: 1%;
-    padding-right: 4%;
-}
-
-.iframe {
-    float: right;
-    width: 30vw;
-    height: 30vh;
-    padding: 3%;
-}
-
-#teaser {
-    padding: 4%;
-}
-
-
-aside h2 {
-    background-color: #330066;
-    color: white;
-    font-size: 2rem;
-    font-family: Fredericka the Great, cursive;
-    padding: 4%;
-}
-
-aside h3 {
-    font-family: Fredericka the Great, cursive;
-    font-size: 1.5rem;
-    margin-top: 5%;
-}
-
-.content-list {
-    list-style-type:disc;
-    margin-left: 6rem;
-}
-
-/*form */
-
-form {
-    width: 50vw;
-	background-color:#330066;
-    color:white;
-    margin-left: 4%;
-    margin-bottom: 2%;
-}
-
-label {
-    margin-left: 4%;
-}
-
-input {
-    background: white;
-    height: 2rem;
-    width: 8rem;
-    margin-left: 2.6rem;
-    margin-top: 1rem;
-    font-size: medium;
-}
-
-#message {
- margin-left: 1rem;
- height: 8rem;    
- width: 16rem;
- margin-bottom: 3rem;
-
-}
-
-button {
-    height: 150px;
-    width: 200px;
-    background-color: #330066;
-    font-color: white;
-}
-
 /*footer*/
 
 #footer {
@@ -208,7 +121,7 @@ footer li {
 }
 
 .social-media {
-    margin-right: 50px;
+    margin-right: 10%;
 }
 
 footer div {
@@ -216,5 +129,8 @@ footer div {
 }
 
 #email {
-    margin-left: 260px;
+    margin-left: 13rem;
+    margin-right: 10rem;
 }
+
+    
