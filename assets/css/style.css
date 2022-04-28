@@ -54,18 +54,6 @@ h3 {
     padding-top: 10px;
 }
 
-#menu {
-    display: block;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-right: 20px;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -103,10 +91,6 @@ a {
     flex-wrap: wrap;
 }
 
-
-
-
-
 /*footer*/
 
 #footer {
@@ -137,4 +121,49 @@ footer div {
 #email-footer {
     margin-left: 13rem;
     margin-right: 10rem;
+}
+
+/*responsive tiles*/
+
+@media screen and (max-width: 768px) {
+    #split-screen {
+        height: 100%;
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction:column;
+        
+
+    .tile {
+        width: 100%;
+
+    .caption {
+        width: 100%;
+            }
+
+    .picture img {
+        width: 100%;
+            }
+        }
+
+
+/*responsive header*/
+@media screen and (max-width: 768px) {
+    header {
+        height:25px;
+    }
+}
+/*responsive footer*/
+@media screen and (max-width: 768px) {
+    #footer {
+    height:25px;
+    display:none;
+}
+    footer li {
+        list-style-type: none;
+        float: none;
+    }
+    footer div {
+        width: 100%;
+        
+}
 }
