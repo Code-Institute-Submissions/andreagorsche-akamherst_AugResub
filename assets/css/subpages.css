@@ -18,8 +18,8 @@
 
 article>p {
     width: 50vw;
-    padding-left: 4%;
-    padding-bottom: 2%;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -91,11 +91,19 @@ button{
 
 .reading > p {
     width:80vw;
-    padding: 1rem, 4rem, 1rem, 4rem;
+    padding: 1rem, 5rem, 1rem, 5rem;
 }
 
-.reading > h1 {
+.morestories {
+    background-color: #330066;
+    color:white;
+    margin: 4rem;
+    padding: 2rem;
     text-align: center;
+}
+
+.morestories ul {
+    list-style-type: none;
 }
 
 /*books*/
