@@ -67,6 +67,7 @@ a {
     padding: 0.5rem 0rem 0.5rem 2.5rem;
 }
 
+
 .picture {
     z-index: 1;
     position: relative;
@@ -74,6 +75,7 @@ a {
 
 .picture img {
     width: 50vw;
+    height:42vh;
 }
 
 
@@ -139,6 +141,10 @@ footer li {
         height:fit-content;
     }
 
+    .picture img {
+        height:100%;
+    }
+    
     #footer{
         height: 100%;
         width: 100%;
