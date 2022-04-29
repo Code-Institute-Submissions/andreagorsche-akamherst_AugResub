@@ -1,5 +1,6 @@
 #menu {
     display: block;
+    font-size: 1.5rem;
 }
 
 #menu li {
@@ -25,10 +26,11 @@ article>p {
 aside {
     float: right;
     width: 35vw;
-    padding-left: 4%;
-    padding-top: 1%;
-    padding-right: 4%;
-    padding-bottom: 4%;
+    padding: 3rem;
+}
+
+aside > p {
+    padding: 0, 2rem, 2rem, 2rem;
 }
 
 aside h2 {
@@ -36,13 +38,12 @@ aside h2 {
     color: white;
     font-size: 2rem;
     font-family: Fredericka the Great, cursive;
-    padding: 4%;
+    padding: 1rem;
 }
 
 aside h3 {
     font-family: Fredericka the Great, cursive;
     font-size: 1.5rem;
-    margin-top: 5%;
 }
 
 .link-title {
@@ -52,17 +53,13 @@ aside h3 {
 /*about*/
 
 .iframe {
-    width: 20vw;
-    height: 20vh;
+    width: 18vw;
+    height: 18vh;
     padding-left: 15%;
     padding-bottom: 10%;
 }
 
 /*short-stories*/
-
-#short {
-    width: 40vw;
-}
 
 button {
     height: 80px;
@@ -71,7 +68,8 @@ button {
     color: white;
     font-size: 1rem;
     margin-left: 45vw;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
+    cursor:pointer;
 
 }
 
@@ -82,12 +80,28 @@ button {
     padding-right: 10%;
 }
 
+button{
+    background-color:#330066;
+    color: #white;
+    border-radius: 1.5rem;
+    
+}
+
+/*reading short stories*/
+
+.reading > p {
+    width:80vw;
+    padding: 1rem, 4rem, 1rem, 4rem;
+}
+
+.reading > h1 {
+    text-align: center;
+}
+
 /*books*/
 
 #teaser {
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 4%;
+    padding: 1rem, 0, 0, 4rem;
 }
 
 /*seo-writing*/
@@ -110,6 +124,7 @@ form {
 
 label {
     margin-left: 4%;
+    font-size: 1.5rem;
 }
 
 input {
@@ -119,15 +134,28 @@ input {
     margin-left: 2.6rem;
     margin-top: 1rem;
     font-size: medium;
+    padding: 1rem;
 }
 
 #message {
     margin-left: 1rem;
-    height: 8rem;
-    width: 16rem;
+    height: 10rem;
+    width: 32rem;
     margin-bottom: 3rem;
 
 }
+
+#button{
+    background-color: white;
+    color:#330066;
+    padding:0.5rem;
+    border-radius: 1.5rem;
+    margin-bottom:2rem;
+    margin-left: 35vw;
+    display: inline-block;
+}
+
+
 
 @media screen and (max-width: 1000px) {
     article>p {
