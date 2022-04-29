@@ -60,6 +60,7 @@ a {
     opacity: 80%;
     z-index: 2;
     position: absolute;
+    padding-left:1.8rem;
 }
 
 .caption h1 {
@@ -109,8 +110,15 @@ footer li {
 
 
 @media screen and (max-width: 1020px) {
+    #logo {
+        float:none;
+        display:flex;
+        justify-content: center;
+        margin-right:10%;
+    }
+
+   
     #split-screen {
-        height: 50%%;
         width: 100%;
         flex-wrap:nowrap;
         flex-direction:column;
@@ -122,6 +130,11 @@ footer li {
         justify-content: center;
     }
 
+    .caption h1{
+        font-size:large;
+        padding:0;
+        text-align:center;
+    }
     .tile {
         height:fit-content;
     }

@@ -148,7 +148,7 @@ input {
 #message {
     margin-left: 1rem;
     height: 10rem;
-    width: 32rem;
+    width: 20rem;
     margin-bottom: 3rem;
 
 }
@@ -160,8 +160,11 @@ input {
     border-radius: 1.5rem;
     margin-bottom:2rem;
     margin-left: 35vw;
+    height:30px;
     display: inline-block;
 }
+
+
 
 
 @media screen and (max-width: 1020px) {
@@ -209,24 +212,44 @@ input {
             height: 40vh;
         }    
 
+    form {
+        display:flex;
+        flex-direction: column;
+        width: 70vw;
+        } 
+
+    #button {
+        margin-left:2%;
     }
 
- @media screen and (max-width: 530px) {
+ h2 {
+        padding:1rem;
+        font-size: 1.2rem;
+    }
+              
+    }
+
+@media screen and (max-width: 530px){
     header {
         height:10rem;
         width:100%,
     }  
-footer {
-    font-size:7px;
-}
- }
 
- @media screen and (max-width: 300px) {
-    header {
-        height:12rem;
-        width:100%,
-    }  
-footer {
-    font-size:7px;
+     input, #message {
+        width: 8rem;
+        height:8rem;
+        font-size:small;
+    }
+    #message {
+        margin-left:15%;
+    }
+
+
+    footer {
+            font-size:7px;
+        }
 }
- }
+
+
+
+
