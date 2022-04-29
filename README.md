@@ -51,10 +51,14 @@ CSS
 
 1. Font choice: The wireframe worked with the heading font Chalkduster. Since this font was not available by Google fonts, Frederika the Great was suggested by Graphichow (https://graphichow.com/knowledge/what-is-a-chalkboard-font-2/). Thus, this font was chosen as a heading font. Since Google Fonts doesn't the pairing feature anymore the developer googled for pairing fonts and found the recommendation to use Oswald. This recommendation was given by Easil (https://about.easil.com/free-font-pairing-guide-templates/)
 
-2. There are four different designs. 
+2. There are four different page designs on website: 
+    
     a) the title page
+
     b) the subpages main design (about, seo writing, books)
+
     c) the short stories design (choice of articles menu)
+
     d) the reading pages of short stories
 3. Since the front page already displayed the main navigation, me and my mentor decided that a navigation bar at the top would be repetitive. Still, we decided to add a header and footer for consistency.
 4. The main goal of the design was to keep it simple and guarantee that the user has a good overview of the divers content (audio, video, extracts, texts ...) at all times.
@@ -67,7 +71,7 @@ The content of the website was created by me, the developer and writer behind A.
 
 The media used on this website was either produced by me or bought for commercial use (e.g. the footage of the book trailer). While the reading extract was layouted by the graphic designer Grit Bomhauer, the press portfolio was designed by me.
 
-## Testing
+## Debugging
 ### TitlePage
 
 Through out the process of coding the website and its functionalities were tested. The Dev Tools were used for debugging and responsive design decisions.
@@ -84,7 +88,22 @@ Although, I am aware that the header could be done with flex as well - I even ha
 Through trial and error I managed to program the website I wanted. The main lessons learned were:
 1) the level of divs used is very important
 2) being careful what I target - sometimes I targeted the div instead of the e.g. h2 inside and wondered why the CSS command was not working.
-3) I learned a lot about responsive design 
+3) I learned a lot about responsive design - this was a huge process of trial and error.
+
+## Testing
+The index page as well as all subpages were tested with the W3 validator. The index.html file didn't have any errors or warnings:
+
+![Testing index.html Screenshot](assets/images/readme/index_validation.png "Testing index.html for A.K.Amherst website").
+
+On the subpage shortstories was a bad practice of using a button as a child of an achor tag. I fixed this by creating an anchor tag and styling it as a button. There were a few "loose" closing tags of paragraphs around that I got rid of quite efficiently with this testing. The iframes had values by default that were not needed and also deleted by me throughout this testing.
+There also appeared warnings about the use of h1 headings in articles. Since I discussed this with my mentor beforehand and he said it was fine to do it like this, I ignored these warnings on purpose:
+
+![Testing subpages Screenshot](/assets/images/readme/subpages_warning.png "Testing subpages for A.K.Amherst website").
+
+The CSS validator showed no errors for the style.css. For the subpages I had twice used as semi-colon instead of a colon to end a width command. And the color white was not enter properly once. Both mistakes were erased.
+
+![Testing CSS Screenshot](assets/images/readme/subpages_warning.png "Testing CSS for A.K.Amherst website").
+
 
 ### Acknowledgements
 
