@@ -121,8 +121,8 @@ footer li {
         justify-content: center;
     }
 
-    .picture {
-        height:20%;
+    .tile {
+        height:fit-content;
     }
 
     #footer{
@@ -144,3 +144,5 @@ footer li {
     }
 
     }
+
+  
