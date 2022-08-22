@@ -10,20 +10,20 @@
 #header {
     background-color: #330066;
     width: 100%;
-    min-height: 8vh;
+    min-height: 5vh;
 }
 
 #logo {
     font-family: Fredericka the Great, cursive;
     font-size: 1.8rem;
-    float:left;
+    float: left;
     padding-top: 0.8.rem;
     padding-left: 1rem;
 }
 
 #main {
     width: 100%;
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -33,9 +33,8 @@
 }
 
 img {
-    width: 500px;
-    height: auto;
-    margin: 5px;
+    height: 42vh;
+    margin: 0.5vh;
 }
 
 a {
@@ -48,7 +47,7 @@ a:hover {
     opacity: 65%;
 }
 
-h1{
+h1 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -61,4 +60,28 @@ h1{
     width: 25vw;
     align-items: center;
     justify-content: center;
+}
+
+#footer {
+    background-color: #330066;
+    width: 100%; 
+    min-height: 5vh;
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+#footer div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+#footer li {
+    list-style-type: none;
+    float: right;
+    padding: 2rem;
 }
