@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+/* header and logo */
+
 #header {
     background-color: #330066;
     width: 100%;
@@ -20,6 +22,8 @@
     padding-top: 0.8.rem;
     padding-left: 1rem;
 }
+
+/* main div with img and h1 */
 
 #main {
     width: 100%;
@@ -37,16 +41,6 @@ img {
     margin: 0.5vh;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: white;
-    opacity: 65%;
-}
-
 h1 {
     position: absolute;
     display: flex;
@@ -61,6 +55,20 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+/* style for links of logo, img and h1 */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    opacity: 65%;
+}
+
+/* style and format of footer */
 
 #footer {
     background-color: #330066;
