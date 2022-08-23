@@ -32,3 +32,13 @@
 a:hover {
     opacity: 65%;
 }
+
+/* title image */
+
+.title-image {
+background-color: #330066;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
