@@ -1,0 +1,250 @@
+/* menu in header */
+
+#menu {
+    display: block;
+    font-size: 1.5rem;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+/* title image */
+.title-image {
+    width: 100vw;
+}
+
+/* article and aside  */
+
+article {
+    padding-bottom: 4rem; 
+}
+
+article>p {
+    width: 50vw;
+    padding: 0 4rem 2rem 4rem;
+}
+
+
+aside {
+    float: right;
+    width: 35vw;
+    padding: 3rem;
+}
+
+aside > p {
+    padding: 0 2rem 2rem 2rem;
+}
+
+aside h2 {
+    background-color: #330066;
+    color: white;
+    font-size: 2rem;
+    font-family: Fredericka the Great, cursive;
+    padding: 1rem;
+}
+
+aside h3 {
+    font-family: Fredericka the Great, cursive;
+    font-size: 1.5rem;
+}
+
+.link-title {
+    color: black;
+}
+
+/*about*/
+
+.iframe {
+    width: 18vw;
+    height: 18vh;
+    padding-left: 15%;
+    padding-bottom: 10%;
+}
+
+/*short-stories*/
+
+.readmore {
+   background: #330066;
+   color: white;
+   border-radius: 1.5rem;
+   padding: 1%;
+   margin-left: 70vh;
+   font-size: 1.5rem;
+}
+
+.quote {
+    font-size: 1.5rem;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*reading short stories*/
+
+.reading > p {
+    width: 80vw;
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+.morestories {
+    background-color: #330066;
+    color:white;
+    margin: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.morestories ul {
+    list-style-type: none;
+}
+
+/*books*/
+
+#teaser {
+    padding: 1rem 0 0 4rem;
+}
+
+/*seo-writing*/
+
+.content-list {
+    list-style-type: disc;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+/*form in seo-writing*/
+
+form {
+    width: 50vw;
+    background-color: #330066;
+    color: white;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+label {
+    margin-left: 4%;
+    font-size: 1.5rem;
+}
+
+input {
+    background: white;
+    height: 2rem;
+    width: 8rem;
+    margin-left: 2.6rem;
+    margin-top: 1rem;
+    font-size: medium;
+    padding: 1rem;
+}
+
+#message {
+    margin-left: 1rem;
+    height: 10rem;
+    width: 20rem;
+    margin-bottom: 3rem;
+
+}
+
+#button{
+    background-color: white;
+    color: #330066;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 35vw;
+    height: 30px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1020px) {
+    header {
+        height: 8rem;
+        width: 100%;
+    }  
+    
+ /*   #menu {
+        clear: left;
+        float: left;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+        }
+*/
+    .title-image {
+            width: 100%;
+        }
+
+    article {
+        width: 95vw;
+        padding-left: 1%;
+        padding-right: 1%;
+        }
+            
+    aside {
+        float: none;
+        width: 95vw;
+        padding: 0;
+        margin: 0;
+        }
+
+    article > p {
+        width: 70vw;
+    }
+
+    aside > p {
+        padding-left: 4%;
+        width: 85vw;
+    }
+    
+    .iframe {
+            width: 50vw;
+            height: 40vh;
+        }    
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        } 
+
+    #button {
+        margin-left: 2%;
+    }
+
+ h2 {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+              
+    }
+
+@media screen and (max-width: 530px){
+    header {
+        height: 10rem;
+        width: 100%;
+    }  
+
+     input, #message {
+        width: 8rem;
+        height: 8rem;
+        font-size: small;
+    }
+    #message {
+        margin-left: 15%;
+    }
+
+
+    footer {
+            font-size: 7px;
+        }
+}
+
+
+
+

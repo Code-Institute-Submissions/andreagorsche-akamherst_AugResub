@@ -19,7 +19,6 @@
     font-family: Fredericka the Great, cursive;
     font-size: 1.8rem;
     float: left;
-    padding-top: 0.8.rem;
     padding-left: 1rem;
 }
 
@@ -41,7 +40,7 @@ img {
     margin: 0.5vh;
 }
 
-h1 {
+#main h1 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -64,6 +63,10 @@ a {
 }
 
 a:hover {
+    opacity: 65%;
+}
+
+#main a:hover {
     background-color: white;
     opacity: 65%;
 }
