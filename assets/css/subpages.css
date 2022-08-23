@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald:wght@300&display=swap');
+
 /* subheader and sublogo */
 
 #subheader {
@@ -40,5 +42,13 @@ background-color: #330066;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+
+/* heading subpage */
+
+.subh1 {
+    font-family: Fredericka the Great, cursive;
+    font-size: 3rem;
+    padding-left: 1rem;
 }
 
