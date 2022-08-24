@@ -38,10 +38,7 @@ a:hover {
 /* title image */
 
 .title-image {
-background-color: #330066;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100%;
 }
 
 /* heading subpage */
@@ -52,14 +49,16 @@ justify-content: center;
     padding: 1rem 0 1rem 4rem;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     padding: 0.5rem 0 0 4rem;
-}   
+}
 
 /* article and aside  */
 
 article {
-    padding-bottom: 2rem; 
+    padding-bottom: 2rem;
 }
 
 article>p {
@@ -79,7 +78,7 @@ aside {
     align-items: center;
 }
 
-aside > p {
+aside>p {
     padding: 0 2rem 2rem 2rem;
     font-size: 1.3rem;
 }
@@ -123,12 +122,12 @@ aside h3 {
 }
 
 .readmore {
-   background: #330066;
-   color: white;
-   border-radius: 1.5rem;
-   padding: 1%;
-   margin-left: 90vh;
-   font-size: 1.2rem;
+    background: #330066;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1%;
+    margin-left: 90vh;
+    font-size: 1.2rem;
 }
 
 .quote {
@@ -140,14 +139,14 @@ aside h3 {
 
 /*reading short stories*/
 
-.reading > p {
+.reading>p {
     width: 80vw;
     padding: 1rem 5rem 1rem 5rem;
 }
 
 .morestories {
     background-color: #330066;
-    color:white;
+    color: white;
     margin: 4rem;
     padding: 2rem;
     text-align: center;
@@ -165,7 +164,7 @@ aside h3 {
     font-style: italic;
 }
 
-#signiture{
+#signiture {
     font-size: 1.5rem;
     font-style: italic;
 }
@@ -213,7 +212,7 @@ input {
 
 }
 
-#button{
+#button {
     background-color: white;
     color: #330066;
     padding: 0.5rem;
@@ -225,4 +224,122 @@ input {
     display: inline-block;
     font-size: 1rem;
     font-weight: bold;
+}
+
+@media screen and (max-width: 530px) {
+
+    /*subheader, sublogo and menu*/
+    #subheader {
+        height: 10rem;
+        width: 100%;
+    }
+
+    #sublogo {
+        font-size: 1rem;
+        padding-top: 2%;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+    }
+
+    /*article and aside*/
+
+    article {
+        width: 95vw;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    aside {
+        float: none;
+        width: 95vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    aside h2 {
+        font-size: 1.2rem;
+        width: auto;
+        padding: 0 1rem 0 1rem;
+    }
+
+    article>p {
+        width: 90vw;
+    }
+
+    aside>p {
+        padding-left: 4%;
+        width: 85vw;
+        font-size: 1rem;
+    }
+
+    .quote {
+        font-size: 1rem;
+        padding: 10% 5% 0 15%;
+    }
+
+/*iframe*/
+
+.iframe {
+    width: 50vw;
+    height: 40vh;
+}
+
+/*teaser*/
+
+#teaser{
+    font-size: 1rem;
+}
+
+/*read more button*/
+.readmore {
+    margin-left: 20%;
+}
+
+/*form and submit button*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+
+input,
+#message {
+    width: 16rem;
+    height: 8rem;
+    font-size: small;
+}
+
+#message {
+    margin-left: 2.5rem;
+}
+
+#button {
+    margin-left: 13rem;
+}
+
+/*footer*/
+
+#footer {
+    height: 20vh;
+    padding-bottom: 5%;
+    width: auto;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#footer div {
+    width: 100%;
+}
+#footer li{
+    padding: 0.8rem;
+}
 }

@@ -35,11 +35,6 @@
     background: #330066;
 }
 
-img {
-    height: 42vh;
-    margin: 0.5vh;
-}
-
 #main h1 {
     position: absolute;
     display: flex;
@@ -53,6 +48,11 @@ img {
     width: 25vw;
     align-items: center;
     justify-content: center;
+}
+
+.img-tile{
+    width: 34vw;
+    margin: 0.5rem;
 }
 
 /* style for links of logo, img and h1 */
@@ -75,7 +75,7 @@ a:hover {
 
 #footer {
     background-color: #330066;
-    width: 100%; 
+    width: 100%;
     min-height: 5vh;
     color: white;
     font-size: medium;
@@ -95,4 +95,57 @@ a:hover {
     list-style-type: none;
     float: right;
     padding: 2rem;
+}
+
+@media screen and (max-width: 530px) {
+
+     /*subheader, sublogo and menu*/
+     #subheader {
+        height: 10vh;
+        width: 100%;
+    }
+
+    #logo {
+        font-size: 1rem;
+        padding-top: 2%;
+    }
+
+    /*main*/
+
+    #main{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #330066;}
+
+    #main h1 {
+        font-size: 0.8rem;
+
+    }
+    .img-tile{
+        width: 45vw;
+        margin: 0.5rem;
+    }
+    /*footer*/
+
+    #footer {
+        height: 15vh;
+        padding-bottom: 5%;
+        width: auto;
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    
+    #footer div {
+        width: 100%;
+    }
+    #footer li{
+        padding: 0.8rem;
+    }
 }
