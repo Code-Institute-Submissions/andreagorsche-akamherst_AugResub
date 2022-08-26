@@ -98,7 +98,7 @@ a:hover {
     padding: 2rem;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 1080px) {
 
      /*subheader, sublogo and menu*/
      #subheader {
