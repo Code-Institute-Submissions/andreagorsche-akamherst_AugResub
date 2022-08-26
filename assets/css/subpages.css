@@ -71,7 +71,6 @@ article>p {
 aside {
     float: right;
     width: 35vw;
-    padding: 3rem;
     padding: 3rem 3rem 3rem 2rem;
     display: flex;
     flex-direction: column;
@@ -80,7 +79,8 @@ aside {
 
 aside>p {
     padding: 0 2rem 2rem 2rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 aside h2 {
@@ -131,7 +131,7 @@ aside h3 {
 }
 
 .quote {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-top: 15%;
     padding-left: 10%;
     padding-right: 10%;
@@ -162,6 +162,7 @@ aside h3 {
     padding: 1rem 0 1rem 4rem;
     font-size: 1.5rem;
     font-style: italic;
+    width: 60vw;
 }
 
 #signiture {
