@@ -7,12 +7,16 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100%;
+    width: 100%;
+    background-color: #330066;
+}
 /* header and logo */
 
 #header {
-    background-color: #330066;
     width: 100%;
-    min-height: 80px;
+    height: auto;
 }
 
 #logo {
@@ -26,13 +30,12 @@
 
 #main {
     width: 100%;
-    min-height: calc(100%-160px);
+    min-height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: #330066;
 }
 
 #main h1 {
@@ -50,7 +53,7 @@
 }
 
 .img-tile{
-    width: 55vh;
+    width: 20vw;
     margin: 0.5rem;
 }
 
@@ -73,9 +76,8 @@ a:hover {
 /* style and format of footer */
 
 #footer {
-    background-color: #330066;
     width: 100%;
-    min-height: 80px;
+    min-height: auto;
     color: white;
     font-size: medium;
     display: flex;
