@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-body{
+#main-body{
     min-height: 100%;
     width: 100%;
     background-color: #330066;
@@ -78,6 +78,7 @@ a:hover {
 
 #footer {
     width: 100%;
+    background-color: #330066;
     min-height: auto;
     color: white;
     font-size: medium;
