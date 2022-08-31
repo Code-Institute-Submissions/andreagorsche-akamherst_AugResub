@@ -1,25 +1,58 @@
 # A.K.Amherst
 
-## Welcome To This Writer's Website!
+## Welcome To A.K. Amherst's Writer Website!
 
-this is a website about the novel and content writer A.K. Amherst. Here you will find information about the Austrian writer and her work.
+When visiting the writer's website of A.K. Amherst the user is presented with 4 sections to choose from: About, Books, Short Stories and SEO writing. Clicking on the picture and heading of one section directs the users to the corresponding subsection.
 
-## The Finished Product 
-You can visit the finished website under the following link:
+The website is targeted at two types of users. One, the fiction readers searching for interesting novels and short stories to read and the business users who are searching for a good writer for their SEO projects (blogs, website texts etc.).
 
-![A.K.Amherst Starting Page Screenshot](assets/images/readme/akamherst_startingpage.png "A.K.Amherst Starting Page").
+By showcasing her fictional work, A.K. Amherst shows her writing talent and variety to both type of users. While the Books and Short Story sections are mainly targeted at fiction readers , they showcase her writing style and capability for the business users as well. The short story section is leading to further subpages, each subpage showing one free short story to read. 
 
-## User Experience
+The SEO writing section is targeted mainly at the business users but  also offers interesting information for fictional readers. After all, fictional readers may need a business writer as well or know someone who does.
 
-First time users: 
-Users visiting the page for the first time will get to know the writer A.K. Amherst and her background. The users will get an overview of her portfolio which includes fiction writing as well as commercial writing (specialized on SEO content for websites and blogs)
+In the About section the writer gives background information about herself and her writing career - which addresses both user types. After all, no matter what they seek - fiction or business writing - they will most likely want to know more about the writer behind it. 
 
-Target group fiction readers:
-First time and repeated users alike will find information about the books and short stories the author has written. Reading extracts of books and short stories will be available for free and give the user a taste of her writing style.
-Audio files of recent interviews and audio book excerpts add to the media mix.
+# Responsiveness
+All the main page, all 4 sub sections and the short story subpages are responsive as shown in detail below.
 
-Target group commercial writing:
-Marketing departments of big companies or CEOs of start-ups often need help in writing SEO-relevant website texts and blog articles. The writer A.K. Amherst presents herself and her commercial writing skills in the section SEO-writing which includes recommendations of previous customers.
+## Main Page
+![A.K.Amherst Starting Page Screenshot](assets/images/readme/responsiveness/mainpage_resp.png "A.K.Amherst Starting Page")
+
+## Sub Sections 
+
+### About
+![About Sub Section Screenshot](assets/images/readme/responsiveness/sub_about_resp.png "About A.K. Amherst")
+
+### Books
+![Books Sub Section Screenshot](assets/images/readme/responsiveness/sub_books_resp.png "Books by A.K. Amherst")
+
+### Short Stories
+![Short Stories Sub Section Screenshot](assets/images/readme/responsiveness/sub_shortstories_resp.png "Short Stories by A.K. Amherst")
+
+### SEO Writing
+![SEO Writing Sub Section Screenshot](assets/images/readme/responsiveness/sub_shortstories_resp.png "SEO Writing by A.K. Amherst")
+
+# Features Overall
+
+## Navigation Bar
+On top of each page there is a logo allowing the user to go back to the main page. On top of each subsection there is a navigation bar allowing the user to switch between the sub sections. - Since the main page showcasts the four main sections at its center, the navigation bar was not added to the main page. 
+
+![Logo](assets/images/readme/features/logo.png)
+![Navigation Bar](assets/images/readme/features/navigationbar.png)
+
+## Start Page
+The main page is divided in 
+    a) a header with the A.K. Amherst Logo
+    b) a footer with links to the social media channels (instagram, facebook and twitter), display of email address and copyright
+    c) a main section displaying the options to choose from - About, Books, Short Stories, SEO 
+
+![Start Page](assets/images/readme/features/startpage.png)
+
+## About Page
+
+
+
+
 
 ------
 
