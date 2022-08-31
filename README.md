@@ -151,7 +151,9 @@ Sometimes going at something a second time after some break, gives the needed pe
 ------
 
 ## Validators
-There were validator checks done for the first and second submission stage. In both cases no errors occured. 
+There were validator checks done for the first and second submission stage. For HTML the testing was done with the W3 validator, for CSS the test was done with the (jigsaw) validator. In both cases no errors occured. 
+In order to prove that the HTML and CSS code still is valid and clean, I re-did all validation check-ups. For the HTML checks there was the W3 validator used and for CSS the jigsaw validator. No errors occured.
+
 
 ### HTML: Stage 1 Testing (1st submission)
 The index page as well as all subpages were tested with the W3 validator. The index.html file didn't have any errors or warnings:
@@ -171,7 +173,39 @@ The CSS validator showed no errors for the style.css. For the subpages I had twi
 
 ### HTML: Stage 2 Testing (2nd submission)
 
+Main Page:
+![Testing Main Page ](assets/images/readme/validation/html/mainpage_html.png "Testing the new main page for HTML errors").
 
+About Page:
+![Testing Main Page ](assets/images/readme/validation/html/about_html.png "Testing the new main page for HTML errors").
+
+Books Page:
+![Testing Main Page ](assets/images/readme/validation/html/books_html.png "Testing the new main page for HTML errors").
+
+SEO Writing Page:
+![Testing Main Page ](assets/images/readme/validation/html/mainpage.png "Testing the new main page for HTML errors").
+
+Short Stories Page:
+![Testing Main Page ](assets/images/readme/validation/html/shortstories_html.png "Testing the new main page for HTML errors").
+
+Running Sushi (Reading Short Stories) Page:
+![Testing Main Page ](assets/images/readme/validation/html/runningsushi_html.png "Testing the new main page for HTML errors").
+
+Beloved Paul (Reading Short Stories) Page:
+![Testing Main Page ](assets/images/readme/validation/html/mainpage.png "Testing the new main page for HTML errors").
+
+
+### CSS: Stage 2 Testing (2nd submission)
+
+# Deployment
+The project A.K. Amherst was deployed using GitHub pages. Therefore, I went to the GitHub website and:
+- picked the repository 
+- clicked on settings
+- choose the tab 'pages'
+- in the source section I clicked on the drop-down menu, choose main and clicked save
+
+The website refreshed revealing the link to the published page which you can find here:
+https://andreagorsche.github.io/akamherst/
 
 ------
 
