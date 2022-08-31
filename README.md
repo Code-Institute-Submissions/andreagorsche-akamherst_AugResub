@@ -39,7 +39,7 @@ All the main page, all 4 sub sections and the short story subpages are responsiv
 ## Navigation Bar
 On top of each page there is a logo allowing the user to go back to the main page. On top of each subsection there is a navigation bar allowing the user to switch between the sub sections. - Since the main page showcasts the four main sections at its center, the navigation bar was not added to the main page. 
 
-![Logo](assets/images/readme/features/navigationbar/logo.pnglogo.png)
+![Logo](assets/images/readme/features/logo/logo.png)
 ![Navigation Bar](assets/images/readme/features/navigationbar/navigationbar.png)
 
 # Features on Pages
@@ -146,7 +146,7 @@ I was considering a background img for the short story subpages but neglected th
 I had to update the header and footer CSS due to changes in HTML that were required for the front page. IDs and classes were changed or deleted alltogether, making the code much nicer and the output way clearer.
 
 ### Lessons Learned
-Sometimes going at something a second time after some break, gives the needed perspective to make a project grow to its full potential. I am very satisfied with the outcome.
+Sometimes going at something a second time after some break, gives the needed perspective to make a project grow to its full potential. I am very satisfied with the outcome. Especially the focus on the key element of the front page - the pictures - helped me finding a much easier solution: using img tags directly and not working with divs in divs in divs.
 
 ------
 
@@ -172,30 +172,50 @@ The CSS validator showed no errors for the style.css. For the subpages I had twi
 ![Testing CSS Screenshot](assets/images/readme/subpages_warning.png "Testing CSS for A.K.Amherst website").
 
 ### HTML: Stage 2 Testing (2nd submission)
+When testing the HTML with the W3 validator for the second attempt at submitting project 1 there were no errors. With the subpages there were 2 warnings considered and discussed with my mentor:
+
+    Warning 1: Consider using the h1 element as a top-level heading only 
+    Warning 2: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
+
+Consideration of Warning 1: Using h1 as a heading for the class subheading of the websites was a conscious decision and doesn't need changing. It is bascially the main heading of the subpage. SEO wise it makes more sense to keep it an h1 heading.
+
+Consideration of Warning 2: The heading was chosen be outside of the main article area. My mentor recommended doing it like that and I agree. Again SEO considerations were responsible for this choice.
+
 
 Main Page:
-![Testing Main Page ](assets/images/readme/validation/html/mainpage_html.png "Testing the new main page for HTML errors").
+![Testing HTML Main Page ](assets/images/readme/validation/html/mainpage_html.png "Testing the new main page for HTML errors").
 
 About Page:
-![Testing Main Page ](assets/images/readme/validation/html/about_html.png "Testing the new main page for HTML errors").
+![Testing HTML About Page ](assets/images/readme/validation/html/about_html.png "Testing the slightly adapted About page for HTML errors").
 
 Books Page:
-![Testing Main Page ](assets/images/readme/validation/html/books_html.png "Testing the new main page for HTML errors").
+![Testing HTML Books Page ](assets/images/readme/validation/html/books_html.png "Testing the slightly adapted Books page for HTML errors").
 
 SEO Writing Page:
-![Testing Main Page ](assets/images/readme/validation/html/mainpage.png "Testing the new main page for HTML errors").
+![Testing HTML SEO Page ](assets/images/readme/validation/html/seowriting_html.png "Testing the slightly adapted SEO page for HTML errors").
 
 Short Stories Page:
-![Testing Main Page ](assets/images/readme/validation/html/shortstories_html.png "Testing the new main page for HTML errors").
+![Testing HTML Short Stories Page ](assets/images/readme/validation/html/shortstories_html.png "Testing the slightly adapted Short Stories page for HTML errors").
 
 Running Sushi (Reading Short Stories) Page:
-![Testing Main Page ](assets/images/readme/validation/html/runningsushi_html.png "Testing the new main page for HTML errors").
+![Testing HTML Running Sushi Page ](assets/images/readme/validation/html/runningsushi_html.png "Testing the slightly adapted Running Sushi page for HTML errors").
 
 Beloved Paul (Reading Short Stories) Page:
-![Testing Main Page ](assets/images/readme/validation/html/mainpage.png "Testing the new main page for HTML errors").
+![Testing HTML Beloved Paul Page ](assets/images/readme/validation/html/belovedpaul_html.png "Testing the slightly adapted Beloved Paul page for HTML errors").
 
 
 ### CSS: Stage 2 Testing (2nd submission)
+Also the two CSS files were tested again for the second attempt at submitting the project 1.
+
+CSS
+![Testing CSS Main Page ](assets/images/readme/validation/css/css_pages.png "Testing the new main page for CSS errors").
+![Testing CSS Subpages Page ](assets/images/readme/validation/css/css_subpages.png "Testing the slightly adapted subpages for CSS errors").
+
+Warnings in CSS
+In both cases there were warnings stating that the fonts names used should always be in double quotation marks to avoid problems. I checked both files and all of the font names were in double quotation marks. I don't think this is an actual problem of my CSS but rather a bug in the CSS validator.
+![Testing CSS Main Page ](assets/images/readme/validation/css/warnings_css.png "Testing the new main page for CSS errors").
+![Testing CSS Subpages Page ](assets/images/readme/validation/css/warnings_subpages.png "Testing the slightly adapted subpages for CSS errors").
+
 
 # Deployment
 The project A.K. Amherst was deployed using GitHub pages. Therefore, I went to the GitHub website and:
