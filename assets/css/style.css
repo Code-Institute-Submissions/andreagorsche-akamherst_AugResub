@@ -100,6 +100,8 @@ a:hover {
     padding: 2rem;
 }
 
+/* responsiveness */
+
 @media screen and (max-width: 1081px) {
 
      /*subheader, sublogo and menu*/
